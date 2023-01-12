@@ -1,6 +1,5 @@
 import { Module } from '@nestjs/common';
 import { TaskModule } from 'src/cron/task.module';
-import { DbModule } from './../db/db.module';
 import { ExchangeModule } from './exchange/exhange.module';
 import { GatewayModule } from './gateway/gateway.module';
 

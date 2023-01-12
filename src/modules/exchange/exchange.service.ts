@@ -85,7 +85,7 @@ export class ExchangeService {
     });
     await exchangeModel.save();
 
-    this.gateway.server.emit('stream_rates', [exchangeModel]);
+    this.gateway.server.emit('exchange_rates', [exchangeModel]);
 
     return appResponse({
       data: exchange,
