@@ -14,7 +14,7 @@ This project was bootstrapped with
 1.  Ensure you have node installed on your system
 2.  Clone the repository by running
     ```
-    git clone
+    git clone https://github.com/YomiCasual/exchange-app-api.git
     ```
 3.  Create an env file in the root and paste the following
     ```
