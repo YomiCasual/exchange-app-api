@@ -12,7 +12,7 @@ export class TasksService {
     private readonly exchangeService: ExchangeService,
   ) {}
 
-  @Cron(CronExpression.EVERY_30_SECONDS)
+  @Cron(CronExpression.EVERY_MINUTE)
   async handleCron() {
     const response = await this.exchangeService.getStreamData();
 
